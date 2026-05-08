@@ -1,8 +1,8 @@
 # 📝 Project Planning Worksheet
 
-**Name:** ___________________________  
-**Date:** ___________________________  
-**Project Title:** ___________________________
+**Name:** Aiden Randolph 
+**Date:** 5/6/2026
+**Project Title:** Calc
 
 ---
 
@@ -10,7 +10,7 @@
 
 *Write 2–3 sentences describing your project. What happens when the user runs it? What will they see or do?*
 
-> 
+> I am making a calculator. When they run it asks them which math operation they want to use and 2 numbers. It will then use the operation to find the answer.
 
 ---
 
@@ -18,9 +18,9 @@
 
 *List every `input()` question you plan to use.*
 
-1. 
-2. 
-3. 
+1. What operation will you be using?
+2. What is the first number
+3. What is the second number
 
 ---
 
@@ -30,10 +30,10 @@
 
 | Variable Name | What It Stores | Data Type |
 |---------------|---------------|-----------|
-| | | |
-| | | |
-| | | |
-| | | |
+| | | | operation, the operation that will be used, string
+| | | | number1, the first number in the problem, float
+ | | | number2, the second number in the problem, float
+| | | |answer, the answer to the problem, rounded float 
 
 ---
 
@@ -41,9 +41,12 @@
 
 *Describe each `if/elif/else` check your program will use.*
 
-- If _________________________, then print _________________________
-- Elif _________________________, then print _________________________
-- Else print _________________________
+- If the operation is addition, then add num1 and num2 variables
+- Elif the operation is subtraction, then subtract num1 and num2 variables
+- Elif the operation is division, then divide num1 and num2 variables
+- Elif the operation is multiplication, then multiply num1 and num2 variables
+- Elif the operation is exponentation, then raise num2 to num1
+- Else print Please choose a valid operation
 
 *(Add more rows if needed.)*
 
@@ -55,6 +58,6 @@
 
 ```
 Program output here...
-User types: 
-Program responds: 
+User types: Addition, 1, 9
+Program responds: The answer is: 10
 ```
